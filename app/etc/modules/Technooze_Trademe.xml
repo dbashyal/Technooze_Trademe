@@ -1,13 +1,9 @@
 <?xml version="1.0"?>
 <config>
-  <modules>
-    <Technooze_Trademe>
-      <active>true</active>
-      <codePool>community</codePool>            
-	        <depends>
-                <Mage_Api />
-            </depends>
-      <version>0.1.0</version>
-    </Technooze_Trademe>
-  </modules>
+    <modules>
+        <Technooze_Trademe>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Technooze_Trademe>
+    </modules>
 </config>
