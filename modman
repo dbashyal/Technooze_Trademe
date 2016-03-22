@@ -1,2 +1,3 @@
 app/code/community/Technooze/Trademe/    app/code/community/Technooze/Trademe/
 app/etc/modules/Technooze_Trademe.xml    app/etc/modules/Technooze_Trademe.xml
+shell/trademe.php    shell/trademe.php
