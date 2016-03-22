@@ -13,6 +13,10 @@ USAGE;
 
     public function run()
     {
+        $model = Mage::getModel('trademe/trademeApiRequest');
+        $credentials = $model->getOauthCredentials();
+
+        var_dump($credentials);
     }
 }
 
