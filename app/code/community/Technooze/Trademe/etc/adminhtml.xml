@@ -8,10 +8,10 @@
                         <children>
                             <config>
                                 <children>
-                                    <general translate="title" module="trademe">
-                                        <title>General Section</title>
+                                    <tgeneral translate="title" module="trademe">
+                                        <title>Technooze Trademe Section</title>
                                         <sort_order>0</sort_order>
-                                    </general>
+                                    </tgeneral>
                                 </children>
                             </config>
                         </children>
