@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <trademe_api translate="title" module="trademe">
+                <title>Trademe API</title>
+                <acl>trademe/api</acl>
+                <model>trademe/api</model>
+                <methods>                    
+						<tradememthod translate="title" module="trademe">
+							<title>trademelabel</title>
+							<acl>trademe/tradememthod</acl>
+						</tradememthod>
+                </methods>
+            </trademe_api>
+        </resources>
+        <acl>
+            <resources>
+                <trademe translate="title" module="trademe">
+                    <title>Trademe</title>
+                    <sort_order>2000</sort_order>                    
+					<tradememthod translate="title" module="trademe">
+                        <title>trademelabel</title>
+                    </tradememthod>
+                </trademe>
+            </resources>
+        </acl>
+    </api>
+</config>

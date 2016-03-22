@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Technooze_Trademe>
+      <version>0.1.0</version>
+    </Technooze_Trademe>
+  </modules>
+  <global>
+    <helpers>
+      <trademe>
+        <class>Technooze_Trademe_Helper</class>
+      </trademe>
+    </helpers>
+	<resources>
+	  <trademe_setup>
+		<setup>
+		  <module>Technooze_Trademe</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </trademe_setup>
+	  <trademe_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </trademe_write>
+	  <trademe_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </trademe_read>
+	</resources>
+  </global>
+</config> 
