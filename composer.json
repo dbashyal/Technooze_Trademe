@@ -1,0 +1,15 @@
+{
+    "name": "dbashyal/Technooze_Trademe",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento Module for Trademe",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Damodar Bashyal",
+            "email":"magento@dltr.org"
+        }
+    ]
+}
