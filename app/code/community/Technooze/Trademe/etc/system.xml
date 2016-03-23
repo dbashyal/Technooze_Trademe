@@ -8,7 +8,7 @@
     </tabs>
     <sections>
         <tgeneral translate="label" module="trademe">
-            <label>General</label>
+            <label>General Settings For Technooze Extensions</label>
             <tab>tgeneral</tab>
             <frontend_type>text</frontend_type>
             <sort_order>0</sort_order>
